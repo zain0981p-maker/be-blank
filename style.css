@@ -218,3 +218,43 @@ body{
 .container.active .toggle-right{
     transform: translateX(200%);
 }
+
+@media (max-width: 768px) {
+    .container{
+        width: 100%;
+        min-height: 100vh;
+        border-radius: 0;
+    }
+
+    .toggle-container{
+        display: none; /* telefonlarda chap-o‘ng animatsiyani olib tashlaymiz */
+    }
+
+    .form-container{
+        width: 100%;
+        position: relative;
+        transform: translateX(0) !important;
+        opacity: 1 !important;
+    }
+
+    .sign-up, .sign-in{
+        width: 100%;
+    }
+
+    .container.active .sign-up{
+        transform: none;
+    }
+
+    .container.active .sign-in{
+        transform: none;
+    }
+
+    .container form{
+        padding: 20px;
+    }
+
+    .social-icons a{
+        width: 35px;
+        height: 35px;
+    }
+}
