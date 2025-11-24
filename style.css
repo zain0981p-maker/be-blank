@@ -226,10 +226,6 @@ body{
         border-radius: 0;
     }
 
-    .toggle-container{
-        display: none; /* telefonlarda chap-o‘ng animatsiyani olib tashlaymiz */
-    }
-
     .form-container{
         width: 100%;
         position: relative;
